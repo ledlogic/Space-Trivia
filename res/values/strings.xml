@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <string name="app_name">Space Trivia</string>
+    <string name="app_name">Eclipse Phase Trivia</string>
     <string name="categories">Trivia Categories</string>
     <string name="scores">Trivia High Scores</string>
     
@@ -17,7 +17,7 @@
     
     <string name="next_question">Next Question</string>
     
-    <string name="content_desc_logo">Space Trivia logo</string>
+    <string name="content_desc_logo">Eclipse Phase Trivia logo</string>
     
     <string name="complete_round">Complete Round</string>
     <string name="round_summary">Round Summary</string>
@@ -30,7 +30,7 @@
     
     <string name="share_score_part_1">I got</string>
     <string name="share_score_part_2">of questions correct in the</string>
-    <string name="share_score_part_3">category in Space Trivia!</string>
+    <string name="share_score_part_3">category in Eclipse Phase Trivia!</string>
     
     <string name="share_via">Share via</string>
 

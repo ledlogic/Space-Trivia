@@ -3,7 +3,7 @@
     style="@style/View"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"  >
 
 	<ImageView
 	    style="@style/AppLogo"
@@ -11,6 +11,17 @@
         android:src="@drawable/logo"
         android:contentDescription="@string/content_desc_logo"/>
 		
+	    <TextView
+	        android:id="@+id/eclipse_phase_trivia"
+	        android:layout_width="fill_parent"
+	        android:layout_height="30sp"
+	        android:layout_marginTop="5sp"
+	        android:layout_marginBottom="5sp"
+	        android:gravity="center"
+	        android:text="@string/app_name"
+	        android:textColor="#b0b0b0"
+	        android:textSize="25sp" />
+	
 	    <LinearLayout
         style="@style/ButtonFrame"
     	android:orientation="vertical" >

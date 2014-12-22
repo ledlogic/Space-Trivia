@@ -134,4 +134,9 @@ public class CategoryData extends TriviaDAO
 		
 		return category;
 	}
+
+	public void reloadQuizzes() {
+		// TODO Auto-generated method stub
+		
+	}
 }

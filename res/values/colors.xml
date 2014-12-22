@@ -19,5 +19,7 @@
    <color name="dark_blue">#1b212b</color>
    <color name="silver1">#C0C0C0</color>
    <color name="silver2">#F1F1F4</color>
-   <color name="logo_red">#df271e</color>
+   <color name="logo_bg">#b0b0b0</color>
+   <color name="logo_fg">#000000</color>
+   <color name="list_fg">#dddddd</color>
 </resources>

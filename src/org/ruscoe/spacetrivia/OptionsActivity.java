@@ -2,6 +2,7 @@ package org.ruscoe.spacetrivia;
 
 import org.ruscoe.spacetrivia.R;
 import org.ruscoe.spacetrivia.constants.Constants;
+import org.ruscoe.spacetrivia.dao.CategoryData;
 import org.ruscoe.spacetrivia.dao.UserPrefsData;
 
 import android.app.Activity;
@@ -20,6 +21,7 @@ import android.widget.CheckBox;
 public class OptionsActivity extends Activity implements OnClickListener
 {
 	UserPrefsData userPrefsData;
+	private CategoryData mCategoryData;
 	
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -35,6 +37,8 @@ public class OptionsActivity extends Activity implements OnClickListener
         enableSound.setOnClickListener(this);
         
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
+        
+        mCategoryData = new CategoryData(this);
     }
     
     @Override
@@ -70,5 +74,9 @@ public class OptionsActivity extends Activity implements OnClickListener
         		Sound.playButtonClick();
         	}
     	}
+    }
+    
+    public void reloadQuizzes() {
+    	mCategoryData.reloadQuizzes();	
     }
 }

@@ -97,10 +97,8 @@ public class TriviaDAO extends SQLiteOpenHelper
 		
 		importCategoriesData(db);
 		
-		importQuestionsData(db, R.raw.questions_space_exploration);
-		importQuestionsData(db, R.raw.questions_earth_moon);
-		importQuestionsData(db, R.raw.questions_solar_system);
-		importQuestionsData(db, R.raw.questions_eclipse_phase);
+		importQuestionsData(db, R.raw.questions_eclipse_phase_core_glossary);
+		importQuestionsData(db, R.raw.questions_eclipse_phase_stats);
 	}
 	
 	@Override
