@@ -3,6 +3,7 @@
 * An open-source space trivia app for Android.
 * Written by Dan Ruscoe (http://ruscoe.org/)
 * Modified for Eclipse Phase questions by Jeff Conrad
+* Includes corebook glossary, character stats/reps.
 
 ## Requirements
 
@@ -27,5 +28,3 @@ I acquired sounds from Joel Owens' [Space 1999 site](http://www.joelowens.org/sp
 I inquired if he had a creative commons license and no he did not
 have a license, but that I was welcome to use them with his best wishes.
 The filenames are renamed with his original filename as the suffix.
-
-I had to downsample computer_ambient_filtered_002 to a sample rate that the android would play without complaint (32000Hz).
