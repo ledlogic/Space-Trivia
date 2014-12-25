@@ -29,7 +29,8 @@
         		android:id="@+id/enableSound"
         		android:layout_width="wrap_content"
         		android:layout_height="wrap_content"
-        		android:text="@string/play_sounds" />
+        		android:text="@string/play_sounds"
+        		android:textStyle="@style/OptionsText" />
 		    
 		</LinearLayout>
         

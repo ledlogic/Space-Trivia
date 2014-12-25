@@ -1,7 +1,7 @@
 package org.ruscoe.spacetrivia;
 
-import org.ruscoe.spacetrivia.R;
 import org.ruscoe.spacetrivia.dao.UserPrefsData;
+import org.ruscoe.spacetrivia.services.SoundService;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -27,11 +27,13 @@ public class MainActivity extends Activity {
 
 		userPrefsData = new UserPrefsData(this);
 
-		Sound.loadSound(this);
-		Sound.setSoundEnabled(userPrefsData.isSoundEnabled());
+		SoundService.loadSound(this);
+		SoundService.setSoundEnabled(userPrefsData.isSoundEnabled());
 
 		// Allow the user to control the media volume of their device.
 		setVolumeControlStream(AudioManager.STREAM_MUSIC);
+
+		SoundService.playBackgroundSound();
 
 		// for title, use custom font
 		Typeface tf = Typeface.createFromAsset(getAssets(),
@@ -44,7 +46,7 @@ public class MainActivity extends Activity {
 	public void onDestroy() {
 		super.onDestroy();
 
-		Sound.release();
+		SoundService.release();
 
 		if (userPrefsData != null) {
 			userPrefsData.close();
@@ -58,7 +60,7 @@ public class MainActivity extends Activity {
 	 *            view - The current view.
 	 */
 	public void showCategories(View view) {
-		Sound.playButtonClick();
+		SoundService.playStartSound();
 
 		Intent i = new Intent(view.getContext(), CategoriesActivity.class);
 		startActivity(i);
@@ -71,7 +73,7 @@ public class MainActivity extends Activity {
 	 *            view - The current view.
 	 */
 	public void showScores(View view) {
-		Sound.playButtonClick();
+		SoundService.playStartSound();
 
 		Intent i = new Intent(view.getContext(), ScoresActivity.class);
 		startActivity(i);
@@ -84,7 +86,7 @@ public class MainActivity extends Activity {
 	 *            view - The current view.
 	 */
 	public void showOptions(View view) {
-		Sound.playButtonClick();
+		SoundService.playStartSound();
 
 		Intent i = new Intent(view.getContext(), OptionsActivity.class);
 		startActivity(i);

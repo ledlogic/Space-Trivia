@@ -7,7 +7,7 @@ import org.ruscoe.spacetrivia.dao.CategoryData;
 import org.ruscoe.spacetrivia.dao.ScoreData;
 import org.ruscoe.spacetrivia.models.Category;
 import org.ruscoe.spacetrivia.models.Score;
-import org.ruscoe.spacetrivia.R;
+import org.ruscoe.spacetrivia.services.SoundService;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -54,6 +54,8 @@ public class SummaryActivity extends Activity
 
         // Allow the user to control the media volume of their device.
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
+        
+        SoundService.playSummarySound();
     }
     
     @Override
@@ -129,7 +131,7 @@ public class SummaryActivity extends Activity
      */
     public void newRoundButtonClickHandler(View view)
     {
-    	Sound.playButtonClick();
+    	SoundService.playButtonClick();
     	
 	  	Intent i = new Intent(view.getContext(), CategoriesActivity.class);
 	  	startActivity(i);
@@ -143,7 +145,7 @@ public class SummaryActivity extends Activity
      */
     public void mainMenuButtonClickHandler(View view)
     {
-    	Sound.playButtonClick();
+    	SoundService.playButtonClick();
     	
 	  	Intent i = new Intent(view.getContext(), MainActivity.class);
 	  	startActivity(i);
@@ -158,7 +160,7 @@ public class SummaryActivity extends Activity
      */
     public void shareScoreButtonClickHandler(View view)
     {
-    	Sound.playButtonClick();
+    	SoundService.playButtonClick();
     	
     	Intent i = new Intent(android.content.Intent.ACTION_SEND);
     	

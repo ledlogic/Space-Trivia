@@ -2,11 +2,11 @@ package org.ruscoe.spacetrivia;
 
 import org.ruscoe.spacetrivia.constants.Constants;
 import org.ruscoe.spacetrivia.dao.CategoryData;
+import org.ruscoe.spacetrivia.services.SoundService;
 
 import android.app.ListActivity;
 import android.content.Intent;
 import android.database.Cursor;
-import android.graphics.Typeface;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.util.Log;
@@ -15,7 +15,6 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
-import android.widget.TextView;
 
 /**
  * Displays a list of trivia categories. The user selects a category to begin a
@@ -51,7 +50,7 @@ public class CategoriesActivity extends ListActivity {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
 					int position, long id) {
-				Sound.playButtonClick();
+				SoundService.playButtonClick();
 				startCategory((int) id);
 			}
 		});
