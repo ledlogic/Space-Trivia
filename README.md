@@ -21,6 +21,7 @@
 
 Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 Open CSV is under [Apache License V2.0](http://www.apache.org/licenses/LICENSE-2.0).
+Font Heliotype LET plain is from [fonts101](http://www.fonts101.com/fonts/view/Uncategorized/49337/Heliotype_LET).
 
 ## Updates for eclipse phase trivia
 
