@@ -3,8 +3,7 @@ package org.ruscoe.spacetrivia;
 import java.util.List;
 import java.util.Map;
 
-import org.ruscoe.spacetrivia.R;
-
+import net.ledlogic.spacetrivia.R;
 import org.ruscoe.spacetrivia.adapters.ScoreAdapter;
 import org.ruscoe.spacetrivia.constants.Constants;
 import org.ruscoe.spacetrivia.dao.CategoryData;

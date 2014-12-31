@@ -3,3 +3,4 @@
 /libs
 lint.xml
 proguard.cfg
+/dist

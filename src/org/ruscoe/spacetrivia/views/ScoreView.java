@@ -1,6 +1,6 @@
 package org.ruscoe.spacetrivia.views;
 
-import org.ruscoe.spacetrivia.R;
+import net.ledlogic.spacetrivia.R;
 import org.ruscoe.spacetrivia.constants.Constants;
 import org.ruscoe.spacetrivia.models.Score;
 

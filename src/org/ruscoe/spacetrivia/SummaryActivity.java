@@ -2,6 +2,7 @@ package org.ruscoe.spacetrivia;
 
 import java.util.Map;
 
+import net.ledlogic.spacetrivia.R;
 import org.ruscoe.spacetrivia.constants.Constants;
 import org.ruscoe.spacetrivia.dao.CategoryData;
 import org.ruscoe.spacetrivia.dao.ScoreData;

@@ -1,10 +1,12 @@
 package org.ruscoe.spacetrivia.dao;
 
+import static android.provider.BaseColumns._ID;
+
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
-import org.ruscoe.spacetrivia.R;
+import net.ledlogic.spacetrivia.R;
 import org.ruscoe.spacetrivia.constants.Constants;
 
 import android.content.ContentValues;
@@ -13,8 +15,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 import au.com.bytecode.opencsv.CSVReader;
-
-import static android.provider.BaseColumns._ID;
 
 /**
  * Data Access Object for the trivia database.

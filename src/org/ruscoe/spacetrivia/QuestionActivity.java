@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import org.ruscoe.spacetrivia.R;
+import net.ledlogic.spacetrivia.R;
 import org.ruscoe.spacetrivia.constants.Constants;
 import org.ruscoe.spacetrivia.dao.AnswerData;
 import org.ruscoe.spacetrivia.dao.QuestionData;

@@ -1,6 +1,6 @@
 package org.ruscoe.spacetrivia.services;
 
-import org.ruscoe.spacetrivia.R;
+import net.ledlogic.spacetrivia.R;
 
 import android.content.Context;
 import android.media.AudioManager;

@@ -1,5 +1,6 @@
 package org.ruscoe.spacetrivia;
 
+import net.ledlogic.spacetrivia.R;
 import org.ruscoe.spacetrivia.dao.UserPrefsData;
 import org.ruscoe.spacetrivia.services.SoundService;
 
