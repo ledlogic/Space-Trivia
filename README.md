@@ -23,9 +23,14 @@ Released under the [MIT License](http://www.opensource.org/licenses/mit-license.
 Open CSV is under [Apache License V2.0](http://www.apache.org/licenses/LICENSE-2.0).
 Font Heliotype LET plain is from [fonts101](http://www.fonts101.com/fonts/view/Uncategorized/49337/Heliotype_LET).
 
-## Updates for eclipse phase trivia
+## Updates for eclipse phase space trivia
 
 I acquired sounds from Joel Owens' [Space 1999 site](http://www.joelowens.org/space1999/sfx.htm).
 I inquired if he had a creative commons license and no he did not
 have a license, but that I was welcome to use them with his best wishes.
 The filenames are renamed with his original filename as the suffix.
+
+# Versions
+* 1.0.0 Initial version
+* 1.0.1 Unique package naming changed to net.ledlogic.
+* 1.0.2 Fix share link to point to github for new app.
