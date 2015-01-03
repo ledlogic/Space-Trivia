@@ -24,7 +24,7 @@ import au.com.bytecode.opencsv.CSVReader;
  */
 public class TriviaDAO extends SQLiteOpenHelper {
 	private static final String DATABASE_NAME = "spacetrivia.db";
-	private static final int DATABASE_VERSION = 3;
+	private static final int DATABASE_VERSION = 7;
 
 	private static Context mContext;
 
@@ -104,6 +104,7 @@ public class TriviaDAO extends SQLiteOpenHelper {
 		importQuestionsData(db, R.raw.questions_eclipse_phase_core_glossary);
 		importQuestionsData(db, R.raw.questions_eclipse_phase_stats);
 		importQuestionsData(db, R.raw.questions_eclipse_phase_factions);
+		importQuestionsData(db, R.raw.questions_eclipse_phase_morphs);
 	}
 	
 	private void onDrop(SQLiteDatabase db) {
