@@ -5,34 +5,28 @@ package org.ruscoe.spacetrivia.models;
  * 
  * @author Dan Ruscoe
  */
-public class Category
-{
+public class Category {
 	public int categoryId;
 	public String name;
-	
-    @Override
-    public String toString()
-    {
-        return "categoryId: " + categoryId + " name: " + name;
-    }
-    
-	public int getCategoryId()
-	{
+
+	@Override
+	public String toString() {
+		return "categoryId: " + categoryId + " name: " + name;
+	}
+
+	public int getCategoryId() {
 		return categoryId;
 	}
-	
-	public void setCategoryId(int categoryId)
-	{
+
+	public void setCategoryId(int categoryId) {
 		this.categoryId = categoryId;
 	}
-	
-	public String getName()
-	{
+
+	public String getName() {
 		return name;
 	}
 
-	public void setName(String name)
-	{
+	public void setName(String name) {
 		this.name = name;
 	}
 }

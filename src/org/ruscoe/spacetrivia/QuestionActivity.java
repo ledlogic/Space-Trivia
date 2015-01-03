@@ -144,8 +144,8 @@ public class QuestionActivity extends Activity {
 
 		mQuestionDescriptionText.setVisibility(View.GONE);
 		mNextQuestionButton.setVisibility(View.GONE);
-		
-		//Sound.playCloseSound();
+
+		// Sound.playCloseSound();
 	}
 
 	/**

@@ -3,7 +3,7 @@
 * An open-source space trivia app for Android.
 * Written by Dan Ruscoe (http://ruscoe.org/)
 * Modified for Eclipse Phase questions by Jeff Conrad
-* Includes corebook glossary, character stats/reps.
+* Includes corebook glossary, character stats/reps, and character factions.
 
 ## Requirements
 
@@ -34,3 +34,4 @@ The filenames are renamed with his original filename as the suffix.
 * 1.0.0 Initial version
 * 1.0.1 Unique package naming changed to net.ledlogic.
 * 1.0.2 Fix share link to point to github for new app.
+* 1.0.3 Add factions data.
